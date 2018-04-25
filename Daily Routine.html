@@ -16,7 +16,7 @@
 	#coffee {color: green; border: 2px solid #42413D; margin: 3px;}
 	#Mondays {color: #fbedb7; border: 2px solid #42413D; margin: 3px;}
 	h3 > a {color: red;}
-	p:first-letter {font-weight: 50px; font-size: bold;}
+	h1:first-letter {font-weight: 50px; font-size: bold;}
 
 </style>
 
@@ -52,7 +52,32 @@ Write down daily gratitudes
 <div id="Mondays">Stay Home on Mondays</div>
 <br/>
 <br/>
+<h3>What did you eat today?</h3>
+<form> Foods I ate: <input type="text" name="username" size="30" maxlength="40" value="enter food log here"> </form>
+<br/>
+<h3>Did you work out today?</h3>
+<form>
+	Gym? <input type="radio" name="Gym" value="Gym">
+	No Gym? <input type="radio" name="Gym" value="No Gym">
 
+	<h3>Daily Routine Checklist</h3>
+
+	Completed: 
+	Gratitude journal <input type="Checkbox" name="Completed" value="Gratitude journal">
+	Abundance log <input type="checkbox" name="Completed" value="Abundance log">
+	Scripting <input type="Checkbox" name="Completed" value="Scripting">
+
+	<h3>Rate your day today!</h3>
+	<select> name="rate your day"
+		<option value="best"> Best day ever!</option>
+		<option value="good"> Good day!</option>>
+		<option value="ok"> Ok day!</option>
+		<option value="better"> Tomorrow will be better!</option>
+
+	</select>
+
+</form>
+<br/>
 <br/>
 <a href="index.html">Puff Home</a>
 </body>
